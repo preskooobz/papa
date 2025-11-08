@@ -22,14 +22,6 @@ window.addEventListener('DOMContentLoaded', () => {
                 sound.load();
                 sound.volume = 0.5;
             });
-            
-            // Démarrer la musique de fond
-            this.sounds.background.loop = true;
-            
-            // Démarrer la musique au premier clic
-            document.addEventListener('click', () => {
-                this.sounds.background.play();
-            }, { once: true });
         },
 
         showMessage(text) {
