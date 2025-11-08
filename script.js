@@ -12,7 +12,6 @@ window.addEventListener('DOMContentLoaded', () => {
         ],
         photoUrl: './image/photo.jpg',
         sounds: {
-            background: new Audio('https://assets.mixkit.co/active_storage/sfx/2335/2335-preview.mp3'),
             pop: new Audio('https://assets.mixkit.co/active_storage/sfx/2870/2870-preview.mp3'),
             success: new Audio('https://assets.mixkit.co/active_storage/sfx/2019/2019-preview.mp3')
         },
